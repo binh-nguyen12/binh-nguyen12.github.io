@@ -1,0 +1,31 @@
+title: "Binh Nguyen"
+description: "Notes, projects, and writing"
+# Built-in GitHub Pages theme:
+theme: minima
+
+# Site options
+url: https://binh-nguyen12.github.io
+baseurl: ""   # empty for user sites
+permalink: /:categories/:year/:month/:day/:title/
+timezone: America/Los_Angeles
+lang: en
+
+# Minima options
+# Show About and Posts in the top nav
+header_pages:
+  - about.md
+
+# Social links that minima can show in footer
+github_username: binh-nguyen12
+# instagram_username: binhtherebefore
+# linkedin_username: binh-emily-nguyen-991a2b171
+
+# Plugins GitHub Pages supports (safe set)
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Optional: kramdown Markdown tweaks
+markdown: kramdown
+kramdown:
+  input: GFM
